@@ -14,7 +14,7 @@ if [ -n "$UPDATES" ]; then
 
     # Run Docusaurus build
     echo "Building Docusaurus site..."
-    yarn build
+    yarn run build
 
     echo "Build completed successfully!"
 else
