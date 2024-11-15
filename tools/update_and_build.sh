@@ -1,15 +1,22 @@
 #!/bin/bash
 
-# Pull the latest changes from the git repository
-echo "Pulling latest changes from git..."
-git pull
+# Fetch latest updates
+git fetch origin
 
-# Check if there are any changes in the repository
-if git diff-index --quiet HEAD --; then
-    echo "No changes detected. Build not required."
+# Check if there are updates
+UPDATES=$(git log HEAD..origin/main --oneline)
+
+if [ -n "$UPDATES" ]; then
+    echo "Updates found. Pulling changes..."
+
+    # Pull updates
+    git pull origin main
+
+    # Run Docusaurus build
+    echo "Building Docusaurus site..."
+    yarn build || { echo "Docusaurus build failed!"; exit 1; }
+
+    echo "Build completed successfully!"
 else
-    echo "Changes detected. Running Docusaurus build..."
-    # Run the Docusaurus build command
-    yarn build
-    echo "Build completed successfully."
+    echo "No updates found. Repository is up to date."
 fi
