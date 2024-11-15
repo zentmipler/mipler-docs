@@ -5,20 +5,20 @@ sidebar_label: Changelog
 slug: /changelog
 ---
 
-Please refer to this page to view the latest changes and improvements to our Mipler Reports.
+Please refer to this page to view the latest changes and improvements in Mipler Reports.
 
 ## 🗓️ Nov 2024
 
-### 🆕 Multi-store Reporting
+### 🆕 Multi-Store Reporting
 
-Added a option to link data from multiple stores. With this functionality, you can: 
-  * build aggregated reports **across data from several stores**
-  * filter each report by store name
-  * build pivot reports by stores 
+Added an option to link data from multiple stores. This functionality allows you to:
+  * Build aggregated reports **using data from multiple stores**
+  * Filter reports by store name
+  * Create pivot reports by store
 
 ### Improvements
-* Improved error handling and user feedback mechanisms.
-* Added payment schedule columns (amount, currency, and due_at) to reports.
+* Enhanced error handling and user feedback mechanisms.
+* Added payment schedule columns (amount, currency, and due date) to reports.
 
 ## 🗓️ Jan 2023
 
