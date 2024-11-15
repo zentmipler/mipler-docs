@@ -22,7 +22,7 @@ Added an option to link data from multiple stores. This functionality allows you
 
 ## 🗓️ Jan 2023
 
-After months of dedicated effort, we are proud to announce the launch of a new version of our platform. 👌
+After months of dedicated effort, we are proud to announce the launch of a new version of our platform.
 
 This release features a comprehensive overhaul of the business calculation definition syntax, making it more robust and user-friendly.
 
@@ -30,7 +30,7 @@ The update is powered by **ACE** (Advanced Calculation Engine), a powerful tool 
 
 With ACE, you can manipulate your data with greater ease and precision, making it a valuable addition to any data analysis workflow.
 
-After several months of hard work, we finally released a new platform version with a fully updated business calculation definition syntax.
+After several months of hard work, we finally released a new platform version with a fully updated business calculation definition syntax.  👌
 
 ## 🗓️ Jun 2022
 
