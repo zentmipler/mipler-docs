@@ -15,9 +15,6 @@ const config: Config = {
     trailingSlash: true,
     noIndex: true,
 
-    organizationName: 'mirasvit', // Usually your GitHub org/user name.
-    projectName: 'mipler-docs', // Usually your repo name.
-
 
     presets: [
         [
@@ -26,7 +23,7 @@ const config: Config = {
                 blog: false,
                 docs: {
                     sidebarPath: './sidebars.ts',
-                    editUrl: 'https://github.com/mirasvit/mipler-docs',
+                    editUrl: 'https://github.com/mirasvit/mipler-docs/edit/main',
                     routeBasePath: '/'
                 },
                 theme: {
