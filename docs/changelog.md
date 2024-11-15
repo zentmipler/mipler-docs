@@ -5,7 +5,13 @@ sidebar_label: Changelog
 slug: /changelog
 ---
 
-Please refer to this page to view the latest changes and improvements to our Mipler BI Platform.
+Please refer to this page to view the latest changes and improvements to our Mipler Reports.
+
+## 🗓️ Nov 2024
+
+* ⚡ Multi-store Reporting: Added a configuration setting to link data from multiple stores. This functionality allows you to build aggregated reports from several stores within a single interface.
+* Improved error handling and user feedback mechanisms.
+* Added payment schedule columns (amount, currency, and due_at) to reports.
 
 ## 🗓️ Jan 2023
 
