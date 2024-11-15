@@ -9,7 +9,14 @@ Please refer to this page to view the latest changes and improvements to our Mip
 
 ## 🗓️ Nov 2024
 
-* ⚡ Multi-store Reporting: Added a configuration setting to link data from multiple stores. This functionality allows you to build aggregated reports from several stores within a single interface.
+### 🆕 Multi-store Reporting
+
+Added a option to link data from multiple stores. With this functionality, you can: 
+  * build aggregated reports **across data from several stores**
+  * filter each report by store name
+  * build pivot reports by stores 
+
+### Improvements
 * Improved error handling and user feedback mechanisms.
 * Added payment schedule columns (amount, currency, and due_at) to reports.
 
@@ -27,7 +34,7 @@ After several months of hard work, we finally released a new platform version wi
 
 ## 🗓️ Jun 2022
 
-### New Features
+### 🆕 New Features
 
 * New Public View interface with detailed information about last update, owner and applied filters
 
@@ -37,11 +44,10 @@ After several months of hard work, we finally released a new platform version wi
 
 ## 🗓️ May 2022
 
-### New Features
-
-* Schema editor was replaced with new Projects and Schema Studio functionality
-* Added Development Mode (switcher added to the sidebar)
-* Ability to freeze and resize columns
+### 🆕 New Features 
+*  Schema editor was replaced with new Projects and Schema Studio functionality
+*   Added Development Mode (switcher added to the sidebar)
+*  Ability to freeze and resize columns
 
 ### Improvements
 
