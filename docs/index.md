@@ -4,8 +4,9 @@ title: Introduction
 type: category
 ---
 
-Mipler represent a robust solution for performing your online store analytics.
-It allows you to build reports and create graphs and charts using different data available in your store.
+Mipler Reports for Shopify is a powerful tool that allows you to build reports of any complexity using data from your Shopify store.
+The app includes over 60 built-in reports and several hundred different metrics.
 
-The application has an easy-to-use and intuitive interface enabling efficient management of all the reports
-by using several common user-friendly features like drag & drop, filtering, and sorting.
+A key advantage of the app is the ability to create custom reports and add new columns with your own calculations.
+
+Additionally, it's worth highlighting the app's automation features, such as integration with Google Sheets and the built-in Flow functionality for more flexible data operations.
