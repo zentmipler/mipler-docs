@@ -11,5 +11,4 @@ ACE (Advanced Calculations Engine) is a formula language used in Mipler for data
 
 * **ACE functions**: ACE functions are built-in functions that can be used in ACE expressions to perform calculations and transformations on data. There are over 60 ACE functions available, including mathematical functions, time intelligence functions, and text functions.
 
-
 Overall, ACE provides a powerful set of tools for working with data in a dynamic and flexible way, allowing for sophisticated data analysis and modeling.
