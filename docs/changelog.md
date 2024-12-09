@@ -7,6 +7,12 @@ slug: /changelog
 
 Please refer to this page to view the latest changes and improvements in Mipler Reports.
 
+## 🗓️ Dec 2024
+
+* Improved task processing logic by implementing independent processes for each task, reducing the risk of memory leaks.
+* Updated the UI to use the Shopify Polaris design system.
+* Added the `customer_addresses` table as a default component to the data model.
+
 ## 🗓️ Nov 2024
 
 ### 🆕 Multi-Store Reporting
