@@ -1,57 +1,56 @@
 ---
-title: My report takes a long time to load
+title: My Report Takes a Long Time to Load
 sidebar_position: 6
 ---
 
-# My report takes a long time to load
+# My Report Takes a Long Time to Load
 
-Report loading speed is influenced by both the **report queue** and its **structure**. Understanding these factors can
-help you avoid delays and optimize performance.
+The loading speed of reports in Mipler depends on two primary factors: the **report queue** and the **report structure**. By understanding and addressing these factors, you can reduce delays and optimize performance.
 
 ---
 
 ## Report Queue
 
-- Opening multiple reports simultaneously, or working alongside colleagues who are also using reports, can fill the
-  report execution queue.
-- If your report shows a **"pending"** status, it means it is waiting for its turn to load and has not started yet.
-- **Tip**: Avoid opening too many reports at once to prevent overloading the queue.
+- **Simultaneous Usage**: Opening multiple reports simultaneously or working with colleagues who are also using reports can overload the report execution queue.
+- **Pending Status**: If your report displays a **"pending"** status, it is waiting for its turn in the queue and has not started loading yet.
+- **Tip**: To avoid overloading the queue, limit the number of reports opened at the same time.
 
 ---
 
 ## Report Structure
 
-If a single report is taking too long to load, the issue likely lies in the **structure** of that report. Key factors
-include:
+If a single report is taking too long to load, the issue may be due to its structure. The following factors can impact loading time:
 
-1. **Measure Columns**:
-    - Each Measure column calculates its value based on a formula for all Dimensions in the report.
-    - Even hidden columns are processed whenever the report is updated.
+1. **Measure Columns**
+   - Measure columns calculate values based on a formula for all Dimensions in the report.
+   - Even hidden columns are processed whenever the report is updated, which can add to the load time.
 
-2. **Filters**:
-    - Inefficient filters can slow down processing.
-    - Streamline your filters to include only what's necessary.
+2. **Filters**
+   - Inefficient or overly complex filters can slow down processing.
+   - Streamline your filters to include only the necessary criteria.
 
-3. **Data Volume**:
-    - Large datasets (e.g., millions of orders per year) naturally take longer to process.
-    - Retaining only the essential columns can speed up load times significantly.
+3. **Data Volume**
+   - Large datasets (e.g., millions of orders per year) naturally take longer to process.
+   - Retain only essential columns to significantly reduce load times.
 
 ---
 
 ## Recommendations
 
-- Retain only the necessary columns in your reports to minimize processing.
-- Simplify filters to improve performance.
-- Avoid hidden columns that are not required for the report.
+To improve the loading speed of your reports:
+
+- Retain only the necessary columns to minimize processing time.
+- Simplify filters to improve efficiency.
+- Avoid using hidden columns that are not essential for the report.
 
 ---
 
 ## Need Help?
 
-If your reports are still taking too long to load, contact our support team for assistance. You can reach us via:
+If your reports are still taking too long to load, contact our support team for assistance. You can reach us through the following channels:
 
-- **Chat**
-- **In-app form**
+- **Chat**: Available directly in the Mipler app.
+- **In-App Form**: Submit a request through the app.
 - **Email**: [team@mipler.com](mailto:team@mipler.com)
 
-Our team will investigate and help optimize the report's performance for you.
+Our team will work with you to investigate and optimize the performance of your reports.
