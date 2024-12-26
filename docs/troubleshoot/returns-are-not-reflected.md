@@ -39,7 +39,7 @@ This logic mirrors Shopify's standard reports, such as **Sales over time**.
 
 ## Important Notes
 
-When using **Explore Sales** or **Sales By Item**, avoid using dimension columns from the **Orders** or **Order Items** tables, as they are not directly linked to returns in these data relationships. To address this:
+When using explore **Sales** or **Sales By Item**, avoid using dimension columns from the **Orders** or **Order Items** tables, as they are not directly linked to returns in these data relationships. To address this:
 
 - Recreate the necessary columns in the corresponding **Sales** or **Sales By Item** tables (e.g., **sales.source_name**).
 - Alternatively, use columns from the **Products** or **Product Variants** tables, as they are linked to both orders and returns.
