@@ -7,7 +7,7 @@ slug: /changelog
 
 Please refer to this page to view the latest changes and improvements in Mipler Reports.
 
-## 🗓️ Jan 2024
+## 🗓️ Jan 2025
 
 * Enhanced query optimization algorithm reduces execution time of long-running queries by up to 20%.
 * Consolidated output limits: By default, the display row limit is set to 100,000, and the export row limit is also 100,000. These limits can be increased upon request by contacting the support team.
