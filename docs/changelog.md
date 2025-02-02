@@ -9,13 +9,15 @@ Please refer to this page to view the latest changes and improvements in Mipler 
 
 ## 🗓️ Jan 2025
 
-* Enhanced query optimization algorithm reduces execution time of long-running queries by up to 20%.
-* Consolidated output limits: By default, the display row limit is set to 100,000, and the export row limit is also 100,000. These limits can be increased upon request by contacting the support team.
+* Moved the app to Shopify's built-in (embedded) mode. By default, the app now opens inside the Shopify admin, with the option to open a standalone interface as before.
+* Switched to the GraphQL API for products and variants.
+* Enhanced query optimization algorithm, reducing execution time for long-running queries by up to 20%.
+* Consolidated output limits: The default display row limit is now 100,000, and the export row limit is also 100,000. These limits can be increased upon request by contacting the support team.
 
 ## 🗓️ Dec 2024
 
 * Improved task processing logic by implementing independent processes for each task, reducing the risk of memory leaks.
-* Updated the UI to use the Shopify Polaris design system.
+* Updated the UI to use the Shopify Polaris design system. Allowing users to interact with the app in a familiar interface.
 * Added the `customer_addresses` table as a default component to the data model.
 
 ## 🗓️ Nov 2024
