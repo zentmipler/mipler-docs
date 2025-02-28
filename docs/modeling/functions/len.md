@@ -13,7 +13,7 @@ len(<text>)
     
 | Parameter   | Type | Description |
 | ----------- | ---- | ----------- |     
-| text | Text |  |
+| text | Text | The text whose length you want to find. Spaces count as characters |
 
 ### Return values
 Integer
